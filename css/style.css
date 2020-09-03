@@ -1,6 +1,6 @@
 .row-header{
     margin: 0px auto;
-    padding:0px auto;
+    padding:0px ;
 }
 
 .row-content{
@@ -9,12 +9,7 @@
     border-bottom: 1px ridge;
     min-height: 400px;
 }
-.row-about{
-    margin:0px auto;
-    padding: 10px 0px 10px 0px;
-    border-bottom: 1px ridge;
-    min-height: 100px;  
-}
+
 
 .footer{
     background-color: #D1C4E9 ;
@@ -24,7 +19,7 @@
 
 .jumbotron{
     padding: 70px 30px 70px 30px;
-    margin: 0pc auto;
+    margin: 0px auto;
     background: #9575CD;
     color:floralwhite;
 }
@@ -35,6 +30,11 @@ address{
     columns: #0f0f0f;
 }
 
-h3{
-    padding: 10px 0px 10px 0px;
+body{
+    padding:50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark{
+    background-color: #512DA8;
 }
