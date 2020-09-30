@@ -52,7 +52,7 @@ Insert this at the bottom of the page:
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     
-##Icon fonts
+## Icon fonts
 
 npm install font-awesome@4.7.0 --save
 
