@@ -6,27 +6,27 @@ npm init
 npm install lite-server --save-dev
 
 
-{
-  "name": "git-test",
-  "version": "1.0.0",
-  "description": "This is the Git and Node basic learning project",
-  "main": "index.html",
-  "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://jogesh_k_muppala@bitbucket.org/jogesh_k_muppala/git-test.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/jogesh_k_muppala/git-test#readme",
-  "devDependencies": {
-    "lite-server": "^2.2.2"
-  }
-}
+    {
+      "name": "git-test",
+      "version": "1.0.0",
+      "description": "This is the Git and Node basic learning project",
+      "main": "index.html",
+      "scripts": {
+        "start": "npm run lite",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lite": "lite-server"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://jogesh_k_muppala@bitbucket.org/jogesh_k_muppala/git-test.git"
+      },
+      "author": "",
+      "license": "ISC",
+      "homepage": "https://bitbucket.org/jogesh_k_muppala/git-test#readme",
+      "devDependencies": {
+        "lite-server": "^2.2.2"
+      }
+    }
 
 npm start
 
@@ -34,6 +34,7 @@ npm start
 ## BootStrap
 
 npm install bootstrap@4.0.0 --save
+
 npm install jquery@3.3.1 popper.js@1.12.9 --save
 
 Insert this code in the header:
