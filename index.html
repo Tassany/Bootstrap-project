@@ -92,7 +92,7 @@
                             <div class="input-group">
                                 <label for="guests" class="col-md-2 col-form-label"><strong>Number of Guests</strong></label>
 
-                                <div class="col-10 d-flex justify-content-between">
+                                <div class="col-8 d-flex justify-content-between">
                                     <div class="custom-control custom-radio">
                                         <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
                                         <label class="custom-control-label" for="customRadio1">1</label>
@@ -248,7 +248,11 @@
                     <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
                         <span class="carousel-control-next-icon"> </span>
                     </a>
-                </div>
+            
+                    <button class="btn btn-danger btn-sm" id="carouselButton">
+                        <span class="fa fa-pause"></span>
+                    </button>
+                  
             </div>
         </div>
     
@@ -360,11 +364,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script> 
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
+    <script src="js.scripts.js"></script>
 </body>
 
 </html>
